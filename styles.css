@@ -43,52 +43,52 @@ main {
     }
 table {
         width: 100%;
-        border-collapse: collapse; /* Elimina los espacios entre las celdas */
+        border-collapse: collapse; 
         margin: 20px 0;
-        background-color: #fff; /* Fondo blanco para la tabla */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+        background-color: #fff; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
         border-radius: 8px;
-        border: 2px solid #007BFF; /* Marco de color azul alrededor de la tabla */
+        border: 2px solid #007BFF; 
     }
 
     th, td {
-        padding: 12px 15px; /* Espaciado dentro de las celdas */
-        text-align: left; /* Alineación de texto */
-        border: 1px solid #ddd; /* Marco alrededor de las celdas */
+        padding: 12px 15px; 
+        text-align: left; 
+        border: 1px solid #ddd; 
     }
 
     th {
-        background-color: #007BFF; /* Color de fondo de los encabezados */
-        color: white; /* Texto blanco en los encabezados */
-        font-size: 1.1em; /* Un poco más grande para los encabezados */
+        background-color: #007BFF; 
+        color: white; 
+        font-size: 1.1em; 
     }
 
     td {
-        background-color: #f9f9f9; /* Fondo gris claro para las celdas */
+        background-color: #f9f9f9; 
     }
 
     tr:nth-child(even) td {
-        background-color: #f1f1f1; /* Fondo alterno para las filas */
+        background-color: #f1f1f1; 
     }
 
     tr:hover td {
-        background-color: #e0e0e0; /* Color al pasar el ratón sobre la fila */
+        background-color: #e0e0e0; 
     }
 
     ul {
         margin: 0;
-        padding-left: 20px; /* Espaciado en la lista */
+        padding-left: 20px; 
     }
 
     li {
-        margin-bottom: 5px; /* Espaciado entre los elementos de la lista */
+        margin-bottom: 5px; 
     }
 
     tfoot {
         font-size: 0.9em;
-        color: #555; /* Color gris para el pie de la tabla */
-        background-color: #f7f7f7; /* Fondo gris muy claro para el pie */
-        text-align: center; /* Centrado en el pie */
+        color: #555; 
+        background-color: #f7f7f7; 
+        text-align: center; 
         padding: 10px 0;
     }
 
