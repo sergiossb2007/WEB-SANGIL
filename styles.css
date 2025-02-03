@@ -43,53 +43,55 @@ main {
     }
 table {
         width: 100%;
-        border-collapse: collapse; 
+        border-collapse: collapse; /* Elimina los espacios entre las celdas */
         margin: 20px 0;
-        background-color: #fff; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        background-color: #fff; /* Fondo blanco para la tabla */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
         border-radius: 8px;
+        border: 2px solid #007BFF; /* Marco de color azul alrededor de la tabla */
     }
 
     th, td {
-        padding: 12px 15px; 
-        text-align: left; 
-        border-bottom: 1px solid #ddd; 
+        padding: 12px 15px; /* Espaciado dentro de las celdas */
+        text-align: left; /* Alineación de texto */
+        border: 1px solid #ddd; /* Marco alrededor de las celdas */
     }
 
     th {
-        background-color: #007BFF; 
-        color: white; 
-        font-size: 1.1em; 
+        background-color: #007BFF; /* Color de fondo de los encabezados */
+        color: white; /* Texto blanco en los encabezados */
+        font-size: 1.1em; /* Un poco más grande para los encabezados */
     }
 
     td {
-        background-color: #f9f9f9; 
+        background-color: #f9f9f9; /* Fondo gris claro para las celdas */
     }
 
     tr:nth-child(even) td {
-        background-color: #f1f1f1; 
+        background-color: #f1f1f1; /* Fondo alterno para las filas */
     }
 
     tr:hover td {
-        background-color: #e0e0e0; 
+        background-color: #e0e0e0; /* Color al pasar el ratón sobre la fila */
     }
 
     ul {
         margin: 0;
-        padding-left: 20px; 
+        padding-left: 20px; /* Espaciado en la lista */
     }
 
     li {
-        margin-bottom: 5px; 
+        margin-bottom: 5px; /* Espaciado entre los elementos de la lista */
     }
 
     tfoot {
         font-size: 0.9em;
-        color: #555; 
-        background-color: #f7f7f7; 
-        text-align: center; 
+        color: #555; /* Color gris para el pie de la tabla */
+        background-color: #f7f7f7; /* Fondo gris muy claro para el pie */
+        text-align: center; /* Centrado en el pie */
         padding: 10px 0;
     }
+
 footer { 
   background-color: #333; 
   color: white; 
