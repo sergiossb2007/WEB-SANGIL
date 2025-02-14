@@ -1,18 +1,18 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%; /* Asegura que el cuerpo y la página ocupen toda la altura disponible */
+  height: 100%;
 }
- {
+
+* {
   box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
+  min-height: 100vh;
 }
-
 
 header {
   background-color: #4CAF50;
@@ -23,9 +23,8 @@ header {
 
 #logo {
   width: 200px;
-  lenght:200px;
+  length: 200px;
 }
-
 
 nav {
   background-color: #333;
@@ -55,12 +54,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
 main {
-  flex: 1; /* Hace que el contenido ocupe todo el espacio disponible */
+  flex: 1;
   padding: 20px;
 }
-
 
 table {
   width: 100%;
@@ -79,15 +76,13 @@ tfoot td {
   background-color: #f4f4f4;
 }
 
-
 footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 20px; /* Asegura que haya espacio entre el contenido y el pie */
+  margin-top: 20px;
 }
-
 
 section a {
   display: block;
@@ -103,3 +98,4 @@ section a {
 section a:hover {
   background-color: #45a049;
 }
+
