@@ -116,4 +116,23 @@ section a:hover {
   color: white;
 }
 
+.map-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin: 20px 0; /* Espacio superior e inferior */
+}
+
+iframe {
+  max-width: 100%; /* Asegura que el mapa no se desborde */
+  height: 450px; /* Altura fija para los mapas */
+  border: 0; /* Elimina el borde */
+}
+
+
+section {
+  text-align: center;
+  padding: 20px;
+}
+
 
