@@ -1,7 +1,9 @@
+/* Reset de estilos */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Roboto', sans-serif; /* Cambié la fuente por una moderna */
 }
 
 * {
@@ -12,24 +14,30 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #f5f5f5; /* Fondo más suave */
+  color: #333; /* Texto más oscuro para mayor contraste */
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #0066cc; /* Azul vibrante */
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+  font-size: 2rem; /* Tamaño de fuente mayor para mayor impacto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para mayor profundidad */
 }
 
 #logo {
-  width: 200px;
-  length: 200px;
+  width: 180px; /* Ajusté el tamaño */
+  height: 180px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #333;
   color: white;
-  padding: 10px;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -41,59 +49,89 @@ nav ul {
 }
 
 nav li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px; /* Aumenté el tamaño de fuente */
+  font-weight: 500; /* Peso de fuente para más presencia */
+  transition: color 0.3s ease; /* Efecto suave en hover */
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #4CAF50; /* Cambio a verde en hover */
 }
 
 main {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 th, td {
-  padding: 10px;
+  padding: 12px 15px;
   text-align: left;
   border: 1px solid #ddd;
+  font-size: 16px; /* Tamaño de fuente más grande para legibilidad */
+}
+
+th {
+  background-color: #4CAF50; /* Encabezados de la tabla en verde */
+  color: white;
 }
 
 tfoot td {
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9; /* Fondo más claro para el pie de la tabla */
 }
 
 footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 30px;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #4CAF50;
 }
 
 section a {
   display: block;
   text-align: center;
-  font-size: 18px;
-  margin-top: 30px;
-  padding: 10px;
+  font-size: 20px; /* Tamaño más grande para los enlaces */
+  margin-top: 40px;
+  padding: 15px 30px;
   background-color: #4CAF50;
   color: white;
   text-decoration: none;
+  border-radius: 25px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+section a:hover {
+  background-color: #45a049;
+  transform: translateY(-3px); /* Efecto de elevación en hover */
+}
+
+
 
 section a:hover {
   background-color: #45a049;
