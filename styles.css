@@ -1,12 +1,12 @@
-/* Reset de estilos */
+/* Importa las fuentes que necesitas */
+@import url('https://fonts.googleapis.com/css2?family=Brush+Script+MT&family=Courier+Prime&display=swap');
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif; /* Cambié la fuente por una moderna */
-}
-
-* {
+  font-family: 'Courier Prime', monospace; /* Usamos Courier para el texto normal */
+  background-color: #fdf4f4; /* Fondo suave de rosa pastel */
   box-sizing: border-box;
 }
 
@@ -14,30 +14,28 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f5f5f5; /* Fondo más suave */
-  color: #333; /* Texto más oscuro para mayor contraste */
 }
 
 header {
-  background-color: #0066cc; /* Azul vibrante */
-  color: white;
+  background-color: #a8e6cf; /* Verde pastel */
+  color: #ff80ab; /* Rosa pastel */
   text-align: center;
   padding: 30px;
-  font-size: 2rem; /* Tamaño de fuente mayor para mayor impacto */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para mayor profundidad */
+  border-bottom: 5px solid #ff80ab; /* Borde rosa pastel */
+  font-family: 'Brush Script MT', cursive; /* Fuente Brush Script para los títulos */
 }
 
 #logo {
-  width: 180px; /* Ajusté el tamaño */
-  height: 180px;
-  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
 }
 
 nav {
-  background-color: #333;
+  background-color: #ff80ab; /* Rosa pastel */
   color: white;
-  padding: 15px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  font-family: 'Courier Prime', monospace; /* Courier para los textos de navegación */
 }
 
 nav ul {
@@ -55,18 +53,20 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 18px; /* Aumenté el tamaño de fuente */
-  font-weight: 500; /* Peso de fuente para más presencia */
-  transition: color 0.3s ease; /* Efecto suave en hover */
+  font-size: 18px;
+  font-weight: bold;
 }
 
 nav a:hover {
-  color: #4CAF50; /* Cambio a verde en hover */
+  text-decoration: underline;
+  color: #a8e6cf; /* Verde pastel en el hover */
 }
 
 main {
   flex: 1;
-  padding: 40px;
+  padding: 30px;
+  background-color: #fff8f3; /* Fondo suave rosa */
+  font-family: 'Courier Prime', monospace; /* Courier para el contenido */
 }
 
 table {
@@ -76,64 +76,44 @@ table {
 }
 
 th, td {
-  padding: 12px 15px;
+  padding: 15px;
   text-align: left;
-  border: 1px solid #ddd;
-  font-size: 16px; /* Tamaño de fuente más grande para legibilidad */
-}
-
-th {
-  background-color: #4CAF50; /* Encabezados de la tabla en verde */
-  color: white;
+  border: 1px solid #ff80ab; /* Rosa pastel para los bordes */
 }
 
 tfoot td {
   text-align: center;
-  background-color: #f9f9f9; /* Fondo más claro para el pie de la tabla */
+  background-color: #ff80ab; /* Rosa pastel */
+  color: white;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #a8e6cf; /* Verde pastel */
+  color: #ff80ab; /* Rosa pastel */
   text-align: center;
-  padding: 30px;
-  margin-top: 40px;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-footer a:hover {
-  color: #4CAF50;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Courier Prime', monospace; /* Courier para el pie de página */
 }
 
 section a {
   display: block;
   text-align: center;
-  font-size: 20px; /* Tamaño más grande para los enlaces */
+  font-size: 22px;
   margin-top: 40px;
-  padding: 15px 30px;
-  background-color: #4CAF50;
-  color: white;
+  padding: 15px;
+  background-color: #a8e6cf; /* Verde pastel */
+  color: #ff80ab; /* Rosa pastel */
   text-decoration: none;
-  border-radius: 25px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-family: 'Courier Prime', monospace; /* Courier en los botones */
 }
 
 section a:hover {
-  background-color: #45a049;
-  transform: translateY(-3px); /* Efecto de elevación en hover */
+  background-color: #ff80ab; /* Cambio de color al hover */
+  color: white;
 }
 
-
-
-section a:hover {
-  background-color: #45a049;
-}
 
