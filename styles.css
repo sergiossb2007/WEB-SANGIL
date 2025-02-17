@@ -135,4 +135,36 @@ section {
   padding: 20px;
 }
 
+/* Contenedor para el video y la foto */
+.media-container {
+  display: flex; /* Usamos flexbox para alinearlos en línea */
+  align-items: center; /* Alinea verticalmente los elementos */
+  gap: 20px; /* Espacio entre el video y la foto */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Contenedor del video */
+.video {
+  width: 50%; /* Asignamos un 50% de ancho para el video */
+  height: 300px; /* Establecemos una altura común para ambos elementos */
+}
+
+/* Contenedor de la foto */
+.foto {
+  width: 50%; /* Asignamos un 50% de ancho para la foto */
+  height: 300px; /* Aseguramos que tenga la misma altura que el video */
+}
+
+/* Ajuste de los elementos dentro de los contenedores */
+iframe {
+  width: 100%; /* El video ocupa todo el ancho del contenedor */
+  height: 100%; /* El video ocupa toda la altura del contenedor */
+  object-fit: cover; /* El video se recorta si es necesario para llenar el contenedor */
+}
+
+img {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  height: 100%; /* La imagen ocupa toda la altura del contenedor */
+  object-fit: cover; /* La imagen se recorta si es necesario para llenar el contenedor */
+}
 
