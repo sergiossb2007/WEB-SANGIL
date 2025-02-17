@@ -59,13 +59,13 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  color: #a8e6cf; /* Verde pastel en el hover */
+  color: #a8e6cf; /* Verde pastel */
 }
 
 main {
   flex: 1;
   padding: 30px;
-  background-color: #fff8f3; /* Fondo suave rosa */
+  background-color: #fff8f3; /* Fondo rosa pastel */
   font-family: 'Courier Prime', monospace; /* Courier para el contenido */
 }
 
@@ -112,7 +112,7 @@ section a {
 }
 
 section a:hover {
-  background-color: #ff80ab; /* Cambio de color al hover */
+  background-color: #ff80ab; 
   color: white;
 }
 
